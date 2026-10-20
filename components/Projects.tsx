@@ -1,4 +1,6 @@
-const projects = [
+import ProjectCard, { type ProjectCardProps } from "@/components/ProjectCard";
+
+const projects: ProjectCardProps[] = [
     {
         name: "Battery Management System PCB",
         context: "UW Automotive Future Team · Altium Designer",
@@ -41,12 +43,7 @@ export default function Projects() {
         <section>
             <h2>Projects</h2>
             {projects.map((project) => (
-                <article key={project.name}>
-                    <h3>{project.name}</h3>
-                    <p>{project.context}</p>
-                    <p>{project.date}</p>
-                    <p>{project.description}</p>
-                </article>
+                <ProjectCard key={project.name} {...project} />
             ))}
         </section>
     );
