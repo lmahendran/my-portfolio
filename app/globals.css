@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
 :root {
-    --background: #ffffff;
-    --foreground: #171717;
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    /* Tron: Legacy palette, from the ggsci R package */
+    --tron-orange: #f79d1e;
+    --tron-cyan: #6ee2ff;
+    color-scheme: dark;
 }
 
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
+    --color-tron-orange: var(--tron-orange);
+    --color-tron-cyan: var(--tron-cyan);
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
 }
 
 body {
     background: var(--background);
     color: var(--foreground);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+    a {
+        color: var(--tron-orange);
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: var(--tron-cyan);
+    }
 }
