@@ -16,12 +16,12 @@
     --color-tron-cyan: var(--tron-cyan);
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
+    --font-display: var(--font-orbitron);
 }
 
 body {
     background: var(--background);
     color: var(--foreground);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer base {
@@ -33,5 +33,6 @@ body {
     h2,
     h3 {
         color: var(--tron-cyan);
+        font-family: var(--font-display);
     }
 }
