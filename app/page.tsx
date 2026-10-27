@@ -6,16 +6,16 @@ import Skills from "@/components/Skills";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  return (
-    <>
-      <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Skills />
-      </main>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <main>
+                <Hero />
+                <About />
+                <Experience />
+                <Projects />
+                <Skills />
+            </main>
+            <Footer />
+        </>
+    );
 }
