@@ -1,7 +1,9 @@
+import SectionHeading from "@/components/SectionHeading";
+
 export default function About() {
     return (
         <section id="about">
-            <h2>About</h2>
+            <SectionHeading>About</SectionHeading>
             <p>
                 I&apos;m a Mechatronics Engineering student at the University of
                 Waterloo, interested in building practical hardware and software

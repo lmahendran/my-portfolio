@@ -1,3 +1,5 @@
+import SectionHeading from "@/components/SectionHeading";
+
 const skillGroups = [
     {
         name: "Languages",
@@ -62,7 +64,7 @@ const skillGroups = [
 export default function Skills() {
     return (
         <section>
-            <h2>Technical Skills</h2>
+            <SectionHeading>Technical Skills</SectionHeading>
             {skillGroups.map((group) => (
                 <div key={group.name}>
                     <h3>{group.name}</h3>

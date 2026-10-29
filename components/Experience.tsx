@@ -1,3 +1,5 @@
+import SectionHeading from "@/components/SectionHeading";
+
 const highlights = [
     "Developed a LoRaWAN-based AWS IoT system to track temperature, humidity, and air tank pressure.",
     "Built an AWS REST API with AWS Lambda to manage IoT resources.",
@@ -8,7 +10,7 @@ const highlights = [
 export default function Experience() {
     return (
         <section>
-            <h2>Experience</h2>
+            <SectionHeading>Experience</SectionHeading>
             <article>
                 <h3>Research Scientist Co-op Student</h3>
                 <p>TechInsights Inc. — Ottawa, ON</p>

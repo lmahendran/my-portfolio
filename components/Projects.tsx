@@ -1,4 +1,5 @@
 import ProjectCard, { type ProjectCardProps } from "@/components/ProjectCard";
+import SectionHeading from "@/components/SectionHeading";
 
 const projects: ProjectCardProps[] = [
     {
@@ -41,7 +42,7 @@ const projects: ProjectCardProps[] = [
 export default function Projects() {
     return (
         <section>
-            <h2>Projects</h2>
+            <SectionHeading>Projects</SectionHeading>
             {projects.map((project) => (
                 <ProjectCard key={project.name} {...project} />
             ))}
