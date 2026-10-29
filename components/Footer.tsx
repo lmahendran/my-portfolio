@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer>
+        <footer className="mx-auto w-full max-w-3xl px-6 py-12">
             <p>Logesh Mahendran</p>
             <p>
                 <a href="mailto:logesh.ishwar@gmail.com">Email</a>

@@ -10,10 +10,12 @@ export default function Home() {
         <>
             <main>
                 <Hero />
-                <About />
-                <Experience />
-                <Projects />
-                <Skills />
+                <div className="mx-auto max-w-3xl space-y-24 px-6 py-24">
+                    <About />
+                    <Experience />
+                    <Projects />
+                    <Skills />
+                </div>
             </main>
             <Footer />
         </>
