@@ -1,4 +1,5 @@
 import SectionHeading from "@/components/SectionHeading";
+import LocationTag from "@/components/LocationTag";
 
 export default function About() {
     return (
@@ -28,9 +29,7 @@ export default function About() {
                 </p>
                 <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-foreground/80">
                     University of Waterloo
-                    <span className="rounded-sm border border-tron-cyan/40 px-2 py-0.5 font-mono text-xs tracking-wider text-tron-cyan uppercase">
-                        Waterloo, ON
-                    </span>
+                    <LocationTag>Waterloo, ON</LocationTag>
                 </p>
                 <p className="mt-2 font-mono text-sm tracking-wider text-foreground/60 uppercase">
                     Expected graduation: June 2031
