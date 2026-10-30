@@ -23,7 +23,7 @@ export default function About() {
                 </p>
             </div>
             <div className="mt-10 rounded-sm border border-l-2 border-tron-cyan/30 border-l-tron-cyan/60 px-6 py-5 shadow-[-6px_0_8px_-6px_var(--tron-cyan)]">
-                <h3 className="text-s mb-3 font-semibold tracking-widest uppercase">
+                <h3 className="mb-3 text-base font-semibold tracking-widest uppercase">
                     Education
                 </h3>
                 <p className="font-semibold">
