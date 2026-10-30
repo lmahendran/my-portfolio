@@ -9,15 +9,14 @@ export default function About() {
                 <p>
                     I&apos;m a Mechatronics Engineering student at the
                     University of Waterloo, interested in building practical
-                    hardware and software projects.
+                    projects that integrate both hardware and software.
                 </p>
-                {/* TODO: replace this placeholder with your own second paragraph */}
                 <p>
-                    Placeholder: a couple of sentences about what draws you to
-                    engineering, such as the kinds of problems you like solving,
-                    areas you want to grow in, or what you&apos;re hoping to
-                    work on next. Aim for about this length so the section stays
-                    quick to read.
+                    Whether it&apos;s software based through games, web
+                    applications or embedded systems or hardware based through
+                    circuitry, PCB design, or CAD. Now, I look to extend my
+                    skills by integrating AI into my workflow. When it comes to
+                    robotics, I&apos;m exploring it all.
                 </p>
             </div>
             <div className="mt-10 rounded-sm border border-l-2 border-tron-cyan/30 border-l-tron-cyan/60 px-6 py-5 shadow-[-6px_0_8px_-6px_var(--tron-cyan)]">
