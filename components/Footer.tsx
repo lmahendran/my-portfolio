@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import packageJson from "@/package.json";
 
 type FooterLink = {
     label: string;
@@ -76,7 +77,9 @@ export default function Footer() {
                     <p className="font-display text-sm font-semibold tracking-widest text-tron-cyan uppercase">
                         Logesh Mahendran
                     </p>
-                    <p className="mt-1 text-xs text-foreground/50">© 2026</p>
+                    <p className="mt-1 font-mono text-xs text-foreground/50">
+                        © 2026 · v{packageJson.version}
+                    </p>
                 </div>
                 <ul className="flex flex-wrap justify-center gap-x-6 gap-y-3">
                     {links.map((link) => {
