@@ -17,14 +17,24 @@
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
     --font-display: var(--font-orbitron);
+    --font-tron: var(--font-tr2n);
+    /* In em so the glow scales with the text's font size */
     --text-shadow-glow:
-        0 0 12px color-mix(in oklab, var(--tron-cyan) 60%, transparent),
-        0 0 32px color-mix(in oklab, var(--tron-cyan) 30%, transparent);
+        0 0 0.17em color-mix(in oklab, var(--tron-cyan) 60%, transparent),
+        0 0 0.44em color-mix(in oklab, var(--tron-cyan) 30%, transparent);
 }
 
 body {
     background: var(--background);
     color: var(--foreground);
+}
+
+/* Square grid of thin cyan lines, used for the Tron floor in Background */
+@utility tron-grid {
+    background-image:
+        linear-gradient(to right, var(--tron-cyan) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--tron-cyan) 1px, transparent 1px);
+    background-size: 64px 64px;
 }
 
 @layer base {

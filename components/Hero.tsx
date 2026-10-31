@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <section className="relative flex min-h-svh flex-col items-center justify-center px-6 text-center">
-            <h1 className="text-4xl font-bold tracking-wider text-shadow-glow sm:text-6xl lg:text-7xl">
+            <h1 className="font-tron text-4xl tracking-wider text-shadow-glow sm:text-7xl lg:text-8xl">
                 Logesh Mahendran
             </h1>
             <p className="mt-6 text-lg tracking-wide text-foreground/70 sm:text-xl">
