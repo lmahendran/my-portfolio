@@ -13,6 +13,7 @@ const projects: ProjectCardProps[] = [
     },
     {
         name: "Design Challenge Project",
+        organization: "UW IDEAs Clinic",
         date: "August 2026",
         description:
             "Created a web application paired with a USB-powered node to help a university student score a study environment. The team received runner-up recognition at the UWaterloo IDEAs Clinic.",

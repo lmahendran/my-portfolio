@@ -12,9 +12,8 @@ const roles: ExperienceEntryProps[] = [
         type: "Design Team",
         dates: "September 2026–Present",
         highlights: [
-            "Placeholder: a system or subsystem you work on, and what it does for the vehicle.",
-            "Placeholder: a specific task you completed, such as a PCB, harness, or test.",
-            "Placeholder: a tool, skill, or result from your work on the team.",
+            "Gaining PCB Design and component selection experience with Altium Designer.",
+            "Pending tasks for electrical systems within the vehicle.",
         ],
     },
     {
@@ -24,9 +23,8 @@ const roles: ExperienceEntryProps[] = [
         type: "Design Team",
         dates: "September 2026–Present",
         highlights: [
-            "Placeholder: a system or subsystem you work on, and what it does for the car.",
-            "Placeholder: a specific task you completed, such as a PCB, harness, or test.",
-            "Placeholder: a tool, skill, or result from your work on the team.",
+            "Gaining PCB Design and component selection experience with Altium Designer.",
+            "Pending tasks for electrical systems within the vehicle.",
         ],
     },
     {
