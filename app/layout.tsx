@@ -27,7 +27,8 @@ const tr2n = localFont({
 
 export const metadata: Metadata = {
     title: "Logesh Mahendran",
-    description: "A neat portfolio website",
+    description:
+        "Logesh Mahendran: A UWaterloo Mechatronics Engineering student passionate in combining hardware and software systems.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
